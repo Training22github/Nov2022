@@ -1,0 +1,517 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-12T23:23:59.077Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.initialize()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.initialize1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verification of the URL",
+        "description": "",
+        "id": "feature-to-test-opening-the-browser-functionality;verification-of-the-url",
+        "after": [
+          {
+            "result": {
+              "duration": 1007900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2796468400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDefinition.Sample.open_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1203259900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "enter the \"https://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.Sample.enter_the(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 353889600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "Page is displayed",
+            "match": {
+              "location": "StepDefinition.Sample.page_is_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test opening the browser functionality",
+    "description": "",
+    "id": "feature-to-test-opening-the-browser-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-12T23:24:03.488Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Check search is successful or not",
+        "description": "",
+        "id": "feature-to-test-search-functionality;check-search-is-successful-or-not;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2575412100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on the search page \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.Sample1.user_is_on_the_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120923800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user enters \u0027java\u0027 data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027java\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.Sample1.user_enters_data(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5757278400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "click on search",
+            "match": {
+              "location": "StepDefinition.Sample1.click_on_search()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238702800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is navigated to the search page",
+            "match": {
+              "location": "StepDefinition.Sample1.user_is_navigated_to_the_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-12T23:24:12.195Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check search is successful or not",
+        "description": "",
+        "id": "feature-to-test-search-functionality;check-search-is-successful-or-not;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2526324300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on the search page \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.Sample1.user_is_on_the_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136916100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user enters \u0027selenium\u0027 data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027selenium\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.Sample1.user_enters_data(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5695280000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "click on search",
+            "match": {
+              "location": "StepDefinition.Sample1.click_on_search()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253937300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is navigated to the search page",
+            "match": {
+              "location": "StepDefinition.Sample1.user_is_navigated_to_the_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test search functionality",
+    "description": "",
+    "id": "feature-to-test-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sample1.feature",
+    "tags": []
+  }
+]
